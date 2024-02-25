@@ -50,7 +50,12 @@
         </div>
         <div>
             <label for="user_password">Password:</label><br>
-            <input type="password" id="user_password" name="user_password">
+            <input type="password" id="user_password" name="user_password" required minlength="5" maxlength="8">
+            <style>
+                input:focus:invalid {
+                    border: 2px solid red;
+                }
+            </style>
         </div>
         <div>
             <label for="user_confirm_password">Confirm Password:</label><br>
