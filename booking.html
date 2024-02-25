@@ -26,15 +26,25 @@
 <main>
     <h2>Book a table</h2>
     <form method="Post">
-        <fieldset id="size">
-            <input type="radio" value="2" name="size">2 people <br>
-            <input type="radio" value="4" name="size" checked>4 people <br>
-            <input type="radio" value="6" name="size">6 people <br>
-        </fieldset>
-        <fieldset id="location">
-            <input type="radio" value="inside" name="location" checked>Inside <br>
-            <input type="radio" value="outside" name="location">Outside <br>
-        </fieldset>
+        <div>
+            <label for="booking_date">Booking date:</label><br>
+            <input type="date" id="booking_date">
+        </div>
+        <div>
+            <labewl for="booking-people" >Number of people:</labewl><br>
+            <input type="range" id="booking_people" name="booking_people" min="1" max="10"
+                   value="4" oninput="this.nextElementSibling.value=this.value">
+            <output>4</output>
+        </div>
+        <div>
+            <label for="booking-location">Location:</label><br>
+            <input  id="booking-location" name="booking-location" list="locations">
+            <datalist id="locations">
+                <option value="Uptown">
+                <option value="Inside">
+                <option value="Outside">
+            </datalist>
+        </div>
         <button type="submit">Book table</button>
     </form>
 </main>
