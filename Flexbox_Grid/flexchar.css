@@ -1,0 +1,23 @@
+.row{
+display: flex;
+align-items: stretch;
+flex-direction: column;
+}
+.label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row.dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pasta{
+    background-color: aqua;
+}

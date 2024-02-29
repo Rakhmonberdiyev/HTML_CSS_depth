@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    height: 150vh;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding:  2em;
+}
+main{
+    background-color: rgb(51, 162, 209);
+    text-align: center;
+    padding:  2em;
+
+}
+footer{
+    background-color: rgb(7, 88, 61);
+    text-align: center;
+    padding:  2em;
+}
