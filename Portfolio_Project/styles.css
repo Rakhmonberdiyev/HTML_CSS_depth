@@ -1,0 +1,66 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+nav{
+    /* display: flex; */
+    flex: 1;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #826b6b;
+    border-radius: 5%;
+    border: #d61212 solid ;
+}
+nav a{
+    color: rgb(243, 238, 232);
+}
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+    border: #171616;
+    margin: 5px;
+    background-color: #dcc9c9;
+    border-radius: 5%;
+
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+footer img{
+    display: block;
+    width: 10%;
+}
+footer p{
+    border-top: solid #171616;
+    text-align: right;
+}
