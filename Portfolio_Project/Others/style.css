@@ -1,0 +1,220 @@
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: 0;
+    list-style: none;
+}
+.pear{
+    height: 400px;
+}
+
+.img1{
+    height: 50px;
+}
+.asscher{
+    height: 200px
+}
+.product{
+    height: 240px;
+}
+
+body{
+    font-family: 'Trajan Pro', sans-serif;
+    color: darkgoldenrod;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo{
+    color: grey;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: grey;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: darkgoldenrod;
+}
+
+#menu{
+    display: none;
+}
+.menu-icon{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header{
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-txt{
+    width:70%;
+    text-align: center;
+}
+.header-txt h1{
+    color: darkgoldenrod;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.header-txt span{
+    
+    font-size: 30px;
+    color: rgb(116, 80, 36);
+}
+p{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: rgb(116, 80, 36);
+    color: antiquewhite;
+}
+.btn-1:hover{
+    color: rgb(231, 216, 154);
+}
+
+.header-img{
+    width: 50%;
+}
+
+.services{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.services-1{
+    text-align: center;
+    padding: 35px;
+    margin: 0 10px;
+}
+.services-1 img{
+    width: 35px;
+    margin-bottom: 15px;
+}
+.services-1 h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.info{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.info-1 img{
+    display: flex;
+    align-items: center;
+}
+.info-2{
+    text-align: center;
+    width: 50%;
+}
+h2{
+    text-align: center;
+
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.diamond{
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+.diamond-content{
+    
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.diamond-1{
+    padding: 35px;
+    text-align: center;
+}
+.diamond-1 h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.btn-2{
+    display: inline-block;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: rgb(116, 80, 36);
+    color: antiquewhite;
+}
+.btn-2:hover{
+    color: rgb(231, 216, 154);
+}
+
+.footer{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid saddlebrown;
+    
+}
+.link h3{
+    font-size: 18px;
+}
+.link a{
+    display: block;
+
+}
